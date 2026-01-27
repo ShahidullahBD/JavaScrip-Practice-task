@@ -76,3 +76,7 @@
 // let chooseTwo = ['Ten', 'Eleven', 'Fifty'];
 // let result = chooseOne.concat(chooseTwo);
 // console.log(result);
+
+const goodFruits = ['apple', 'banana', 'paineapple', 'orange', 'tomato']
+let result = goodFruits.copyWithin(3, 1, 4);
+console.log(result);
